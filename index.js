@@ -1,6 +1,7 @@
 let homeCT = document.getElementById("home-ct")
 let guestCT = document.getElementById("guest-ct")
 let count = 0
+let countGst = 0
 
 function incrementOne() {
     count += 1
@@ -18,16 +19,16 @@ function incrementThree() {
 }
 
 function incrementOneGst() {
-    count += 1
-    guestCT.textContent = count
+    countGst += 1
+    guestCT.textContent = countGst
 }
 
 function incrementTwoGst() {
-    count += 2
-    guestCT.textContent = count
+    countGst += 2
+    guestCT.textContent = countGst
 }
 
 function incrementThreeGst() {
-    count += 3
-    guestCT.textContent = count
+    countGst += 3
+    guestCT.textContent = countGst
 }
